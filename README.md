@@ -84,7 +84,7 @@ https://developer.artik.cloud/documentation/tutorials/an-iot-remote-control.html
 # License
 
 
-The MIT License (MIT)
+The MIT License (MIT). See [License](https://github.com/scifiswapnil/edison_artikcloud/blob/master/LICENSE)
 
 Copyright (c) 2016 swapnil kalhapure
 
