@@ -1,9 +1,12 @@
 # Edison_artikcloud
-------------------------
+
 Artik cloud's basic websocket data interchange with Intel Edison and android client application.
 
+#Introduction 
+
+
 # Hardware Requirements 
-------------------------
+
 1) Intel Edison Board
 
 2) Edison Arduino Breakout Board
@@ -31,10 +34,10 @@ Artik cloud's basic websocket data interchange with Intel Edison and android cli
 	9) Touch Sensor
 
 # Hardware Connection 
-------------------------
+
 
 # How to use the repo
-------------------------
+
 
 Artik CLoud Steps :
 
@@ -57,7 +60,7 @@ Artik CLoud Steps :
 	*Note : Note down the Device ID and the Device Secret
 
 Repo Steps  :
-------------------------
+
 	1) Change the device ID and Device Secret in the /Edison_client/Edison_client.js file 
 
 	2) Change the device ID and client ID in the /Android Client/android-simple-controller/app/src/main/java/cloud/artik/example/simplecontroller/ArtikCloudSession.java file 
@@ -68,7 +71,7 @@ Repo Steps  :
 
 	
 # References 
-------------------------
+
 
 https://github.com/artikcloud/tutorial-iot-control-light
 
@@ -79,7 +82,7 @@ https://developer.artik.cloud/documentation/tutorials/your-first-iot-device.html
 https://developer.artik.cloud/documentation/tutorials/an-iot-remote-control.html
 
 # License
-------------------------
+
 
 The MIT License (MIT)
 
