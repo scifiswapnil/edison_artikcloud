@@ -48,26 +48,25 @@ Pin I2C | Accelerometer
 
 # How to use the repo
 
-
 ### Artik CLoud Steps :
 	
-	1) Create a new *Device Type* (under developer.artik.cloud)
+1) Create a new **Device Type** (under developer.artik.cloud)
 
-	2) Create a new *manifest* for the New Device type(under developer.artik.cloud)
-	
-	3) Activate the *manifest and device* (under developer.artik.cloud)
+2) Create a new **manifest** for the New Device type(under developer.artik.cloud)
 
-	4) Create a new *application* (under developer.artik.cloud)
+3) Activate the **manifest and device** (under developer.artik.cloud)
 
-	5) Set the *premissions* for the application (under developer.artik.cloud)
+4) Create a new **application** (under developer.artik.cloud)
 
-	*Note : Note down the _*client ID* and the *client Secret*_
+5) Set the **premissions** for the application (under developer.artik.cloud)
 
-	6) Create a new *Device* (under artik.cloud/my)
+**Note** : Note down the _**client ID** and the **client Secret**_
 
-	7) give the device a new *name* (under artik.cloud/my)
+6) Create a new **Device** (under artik.cloud/my)
 
-	*Note : Note down the _*Device ID* and the *Device Secret.*_
+7) give the device a new **name** (under artik.cloud/my)
+
+**Note** : Note down the **Device ID** and the **Device Secret.**
 
 ### Repo Steps  :
 
