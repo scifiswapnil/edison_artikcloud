@@ -1,9 +1,6 @@
-# Edison_artikcloud
+# Control Intel Edison using Android App via ARTIK Cloud
 
-Artik cloud's basic websocket data interchange with Intel Edison and android client application.
-
-#Introduction 
-
+Artik cloud's basic websocket implementation for data interchange with Intel Edison and android client application. The repo consist's of nodejs code for intel Edison and build files for android application. The android app and javascript files work as client for the artik cloud and exchange data using Websocket. 
 
 # Hardware Requirements 
 
@@ -35,27 +32,33 @@ Artik cloud's basic websocket data interchange with Intel Edison and android cli
 
 # Hardware Connection 
 
+Plug the Grove base shield on to the intel edison board. Using the shield now connect the sensors according to the table given below. 
+
+| Grove shield | Sensor |
+|||
+|||
+|||
 
 # How to use the repo
 
 
 Artik CLoud Steps :
+	
+	1) Create a new Device Type (under developer.artik.cloud)
 
-	1) Create a new Device Type 				(under developer.artik.cloud)
+	2) Create a new manifest for the New Device type(under developer.artik.cloud)
+	
+	3) Activate the manifest and device (under developer.artik.cloud)
 
-	2) Create a new manifest for the New Device type 	(under developer.artik.cloud)
+	4) Create a new application (under developer.artik.cloud)
 
-	3) Activate the manifest and device 			(under developer.artik.cloud)
-
-	4) Create a new application 				(under developer.artik.cloud)
-
-	5) Set the premission for the application		(under developer.artik.cloud)
+	5) Set the premission for the application (under developer.artik.cloud)
 
 	*Note : Note down the client ID and the client Secret
 
-	6) Create a new Device 					(under artik.cloud/my)
+	6) Create a new Device (under artik.cloud/my)
 
-	7) give the device a new name 				(under artik.cloud/my)
+	7) give the device a new name (under artik.cloud/my)
 
 	*Note : Note down the Device ID and the Device Secret
 
