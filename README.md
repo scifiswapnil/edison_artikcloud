@@ -34,35 +34,42 @@ Artik cloud's basic websocket implementation for data interchange with Intel Edi
 
 Plug the Grove base shield on to the intel edison board. Using the shield now connect the sensors according to the table given below. 
 
-| Grove shield | Sensor |
-|||
-|||
-|||
+Grove shield | Sensor 
+-------------|--------
+Pin A0 | Piezo-vibration sensor
+Pin A1 | Light sensor
+Pin A2 | Temperature sensor
+Pin A3 | Sound sensor
+Pin 4 | Touch sensor
+Pin 8 | Button sensor
+Pin 7 | Buzzer sensor
+Pin I2C | RGB LCD
+Pin I2C | Accelerometer
 
 # How to use the repo
 
 
-Artik CLoud Steps :
+### Artik CLoud Steps :
 	
-	1) Create a new Device Type (under developer.artik.cloud)
+	1) Create a new *Device Type* (under developer.artik.cloud)
 
-	2) Create a new manifest for the New Device type(under developer.artik.cloud)
+	2) Create a new *manifest* for the New Device type(under developer.artik.cloud)
 	
-	3) Activate the manifest and device (under developer.artik.cloud)
+	3) Activate the *manifest and device* (under developer.artik.cloud)
 
-	4) Create a new application (under developer.artik.cloud)
+	4) Create a new *application* (under developer.artik.cloud)
 
-	5) Set the premission for the application (under developer.artik.cloud)
+	5) Set the *premissions* for the application (under developer.artik.cloud)
 
-	*Note : Note down the client ID and the client Secret
+	*Note : Note down the _*client ID* and the *client Secret*_
 
-	6) Create a new Device (under artik.cloud/my)
+	6) Create a new *Device* (under artik.cloud/my)
 
-	7) give the device a new name (under artik.cloud/my)
+	7) give the device a new *name* (under artik.cloud/my)
 
-	*Note : Note down the Device ID and the Device Secret
+	*Note : Note down the _*Device ID* and the *Device Secret.*_
 
-Repo Steps  :
+### Repo Steps  :
 
 	1) Change the device ID and Device Secret in the /Edison_client/Edison_client.js file 
 
