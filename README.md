@@ -13,25 +13,25 @@ Artik cloud's basic websocket data interchange with Intel Edison and android cli
 
 3) Power supply 
 
-4) Grove Kit : 
+4) Grove Starter Kit Plus : 
 
-	1) Sound Sensor
+	- Sound Sensor
 
-	2) Temperature Sensor
+	- Temperature Sensor
 
-	3) Piezo-vibration Sensor
+	- Piezo-vibration Sensor
 
-	4) Light Sensor
+	- Light Sensor
 
-	5) Base Shield
+	- Base Shield
 
-	6) Buzzer 
+	- Buzzer 
 
-	7) Accelerometer Sensor
+	- Accelerometer Sensor
 
-	8) RGB Lcd 
+	- RGB Lcd 
 
-	9) Touch Sensor
+	- Touch Sensor
 
 # Hardware Connection 
 
