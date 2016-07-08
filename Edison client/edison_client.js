@@ -58,11 +58,11 @@ display("",255,255);
    {
    "type":"action","cts":1451436813630,"ts":1451436813631,
    "mid":"37e1d61b61b74a3ba962726cb3ef62f1",
-   "sdidî:îxxxxî,
-   "ddidî:îxxxxî,
+   "sdid‚Äù:‚Äùxxxx‚Äù,
+   "ddid‚Äù:‚Äùxxxx‚Äù,
    "data":{	
 	"actions":[{
-		"name":"buzzor",
+		"name":"buzzer",
 		"parameters":{"intensity":14}},
 		{
 		"name":"displaylcd",
@@ -70,7 +70,7 @@ display("",255,255);
 		}
 		}]
 }
-   "ddtid":"dtf3cdb9880d2e418f915fb9252e267051","uid":"650xxxxî,îmv":1
+   "ddtid":"dtf3cdb9880d2e418f915fb9252e267051","uid":"650xxxx‚Äù,‚Äùmv":1
    }
 
 //status message
@@ -98,7 +98,7 @@ display("",255,255);
 
 {	
 	"actions":[{
-		"name":"buzzor",
+		"name":"buzzer",
 		"parameters":{"intensity":14}},
 		{
 		"name":"displaylcd",
