@@ -53,13 +53,13 @@ public class ArtikCloudSession {
     private final static String TAG = ArtikCloudSession.class.getSimpleName();
 
     // Copy from the corresponding application in the Developer Dashboard
-    public static final String CLIENT_ID = "230a0e9b828641cf9410f056eb6f9618";
+    public static final String CLIENT_ID = "<ur CLIENT_ID>";
 
     // Copy from the Device Info screen in My ARTIK Cloud
-    private final static String DEVICE_ID = "4905342071274a7790f2f4481ff437ae";
+    private final static String DEVICE_ID = "<ur DEVICE_ID>";
 
     private static final String ARTIK_CLOUD_AUTH_BASE_URL = "https://accounts.artik.cloud";
-    public static final String REDIRECT_URL = "android://redirect";
+    public static final String REDIRECT_URL = "<ur REDIRECT_URL>";
 
     private final static String DEVICE_NAME = "Intel Edison";
     private final static String ACTION_NAME_ON = "buzzer_on";
