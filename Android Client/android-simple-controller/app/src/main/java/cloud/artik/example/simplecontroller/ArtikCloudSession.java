@@ -62,8 +62,8 @@ public class ArtikCloudSession {
     public static final String REDIRECT_URL = "android://redirect";
 
     private final static String DEVICE_NAME = "Intel Edison";
-    private final static String ACTION_NAME_ON = "buzzor_on";
-    private final static String ACTION_NAME_OFF = "buzzor_off";
+    private final static String ACTION_NAME_ON = "buzzer_on";
+    private final static String ACTION_NAME_OFF = "buzzer_off";
 
 
     private static ArtikCloudSession ourInstance = new ArtikCloudSession();
@@ -337,7 +337,7 @@ public class ArtikCloudSession {
         {
             "actions":[
                         {
-                            "name":"buzzor",
+                            "name":"buzzer",
                              "parameters":{"intensity":80}},
                         {
                             "name":"displaylcd",
@@ -370,7 +370,7 @@ public class ArtikCloudSession {
         Map<String,Object> map1 = new HashMap<String, Object>();
         map1.put("string",actionName);
 
-        action0.setName("buzzor");
+        action0.setName("buzzer");
         action0.setParameters(map0);
         actions.add(action0);
 
