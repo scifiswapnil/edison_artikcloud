@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Edison artikcloud by scifiswapnil</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Edison artikcloud</h1>
+        <p>Artik cloud&#39;s basic websocket data interchange with Intel Edison </p>
+
+        <p class="view"><a href="https://github.com/scifiswapnil/edison_artikcloud">View the Project on GitHub <small>scifiswapnil/edison_artikcloud</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/scifiswapnil/edison_artikcloud/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/scifiswapnil/edison_artikcloud/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/scifiswapnil/edison_artikcloud">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="control-intel-edison-using-android-app-via-artik-cloud" class="anchor" href="#control-intel-edison-using-android-app-via-artik-cloud" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Control Intel Edison using Android App via ARTIK Cloud</h1>
+
+<p>Artik cloud's basic websocket implementation for data interchange with Intel Edison and android client application. The repo consist's of nodejs code for intel Edison and build files for android application. The android app and javascript files work as client for the artik cloud and exchange data using Websocket. </p>
+
+<h1>
+<a id="hardware-requirements" class="anchor" href="#hardware-requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hardware Requirements</h1>
+
+<p>1) Intel Edison Board</p>
+
+<p>2) Edison Arduino Breakout Board</p>
+
+<p>3) Power supply </p>
+
+<p>4) Grove Starter Kit Plus : </p>
+
+<pre><code>- Sound Sensor
+
+- Temperature Sensor
+
+- Piezo-vibration Sensor
+
+- Light Sensor
+
+- Base Shield
+
+- Buzzer 
+
+- Accelerometer Sensor
+
+- RGB Lcd 
+
+- Touch Sensor
+</code></pre>
+
+<h1>
+<a id="hardware-connection" class="anchor" href="#hardware-connection" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hardware Connection</h1>
+
+<p>Plug the Grove base shield on to the intel edison board. Using the shield now connect the sensors according to the table given below. </p>
+
+<table>
+<thead>
+<tr>
+<th>Grove shield</th>
+<th>Sensor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pin A0</td>
+<td>Piezo-vibration sensor</td>
+</tr>
+<tr>
+<td>Pin A1</td>
+<td>Light sensor</td>
+</tr>
+<tr>
+<td>Pin A2</td>
+<td>Temperature sensor</td>
+</tr>
+<tr>
+<td>Pin A3</td>
+<td>Sound sensor</td>
+</tr>
+<tr>
+<td>Pin 4</td>
+<td>Touch sensor</td>
+</tr>
+<tr>
+<td>Pin 8</td>
+<td>Button sensor</td>
+</tr>
+<tr>
+<td>Pin 7</td>
+<td>Buzzer sensor</td>
+</tr>
+<tr>
+<td>Pin I2C</td>
+<td>RGB LCD</td>
+</tr>
+<tr>
+<td>Pin I2C</td>
+<td>Accelerometer</td>
+</tr>
+</tbody>
+</table>
+
+<h1>
+<a id="how-to-use-the-repo" class="anchor" href="#how-to-use-the-repo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use the repo</h1>
+
+<h3>
+<a id="artik-cloud-steps-" class="anchor" href="#artik-cloud-steps-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Artik CLoud Steps :</h3>
+
+<p>1) Create a new <strong>Device Type</strong> (under developer.artik.cloud)</p>
+
+<p>2) Create a new <strong>manifest</strong> for the New Device type(under developer.artik.cloud)</p>
+
+<p>3) Activate the <strong>manifest and device</strong> (under developer.artik.cloud)</p>
+
+<p>4) Create a new <strong>application</strong> (under developer.artik.cloud)</p>
+
+<p>5) Set the <strong>premissions</strong> for the application (under developer.artik.cloud)</p>
+
+<p><strong>Note</strong> : Note down the <em><strong>client ID</strong> and the <strong>client Secret</strong></em></p>
+
+<p>6) Create a new <strong>Device</strong> (under artik.cloud/my)</p>
+
+<p>7) give the device a new <strong>name</strong> (under artik.cloud/my)</p>
+
+<p><strong>Note</strong> : Note down the <strong>Device ID</strong> and the <strong>Device Secret.</strong></p>
+
+<h3>
+<a id="repo-steps--" class="anchor" href="#repo-steps--" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repo Steps  :</h3>
+
+<pre><code>1) Change the device ID and Device Secret in the /Edison_client/Edison_client.js file 
+
+2) Change the device ID and client ID in the /Android Client/android-simple-controller/app/src/main/java/cloud/artik/example/simplecontroller/ArtikCloudSession.java file 
+
+3) Run the nodejs Code on edison using "node Edison_client.js"
+
+4) build the android project in android sutdio and install the app on your phone
+</code></pre>
+
+<h1>
+<a id="references" class="anchor" href="#references" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>References</h1>
+
+<p><a href="https://github.com/artikcloud/tutorial-iot-control-light">https://github.com/artikcloud/tutorial-iot-control-light</a></p>
+
+<p><a href="https://developer.artik.cloud/documentation/tutorials/your-first-android-app.html">https://developer.artik.cloud/documentation/tutorials/your-first-android-app.html</a></p>
+
+<p><a href="https://developer.artik.cloud/documentation/tutorials/your-first-iot-device.html">https://developer.artik.cloud/documentation/tutorials/your-first-iot-device.html</a></p>
+
+<p><a href="https://developer.artik.cloud/documentation/tutorials/an-iot-remote-control.html">https://developer.artik.cloud/documentation/tutorials/an-iot-remote-control.html</a></p>
+
+<h1>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h1>
+
+<p>The MIT License (MIT). See <a href="https://github.com/scifiswapnil/edison_artikcloud/blob/master/LICENSE">License</a></p>
+
+<p>Copyright (c) 2016 swapnil kalhapure</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/scifiswapnil">scifiswapnil</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
